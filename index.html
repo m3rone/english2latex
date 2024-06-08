@@ -9,7 +9,7 @@
     'sha256-6G/D4xcooyBBzhw2gVwC3oZefDQVMsrgit1L4/QB21s='
     'sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd';
     style-src
-    'sha256-y4MyBJ9yd8L3uc3wG6+nhmgZqtbN1QdKoRAU3w+F5cU='
+    'sha256-h5LqhVpxNLmyo4vFkvgqNhW2khjG6CvXFrjO1gGD0PE='
     https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css;
     font-src https://cdn.jsdelivr.net">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
@@ -105,6 +105,9 @@
                 border: none;
                 background-color: rgb(236, 236, 236);
             }
+            a {
+                color: aqua;
+            }
         }
 
     </style>
@@ -118,6 +121,6 @@
         <label for="latexbox">Receive the glorious LaTeX that kinda looks like your English text here</label>
         <input id="latexbox" type="text" readonly placeholder="LaTeX">
     </div>
-    <span id="texpreview">Preview will be here!</span>
+    <span id="texpreview">Preview will be here! (<a href="https://github.com/m3rone/english2latex">clicky for the source</a>)</span>
 </body>
 </html>
